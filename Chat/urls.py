@@ -21,4 +21,5 @@ urlpatterns = [
     path('api/', include('rest_framework.urls')),
     path('auth/', include('djoser.urls')),
     path('auth/', include('djoser.urls.authtoken')),
+    path('api/messages/', include('messenger.urls')),
 ]
