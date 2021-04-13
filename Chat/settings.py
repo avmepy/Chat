@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'djoser',
     'messenger.apps.MessengerConfig',
+    'rest_framework_swagger',
 ]
 
 MIDDLEWARE = [
