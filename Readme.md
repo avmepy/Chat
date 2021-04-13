@@ -78,7 +78,7 @@ then via terminal
 
 ```docker pull postgres```
 
-```docker run -e POSTGRES_PASSWORD={tour password} -e POSTGRES_USERNAME={youe username} -it --rm -p 5432:5432 -d --name pg postgres```
+```docker run -e POSTGRES_PASSWORD={your password} -e POSTGRES_USERNAME={your username} -it --rm -p 5432:5432 -d --name pg postgres```
 
 ```brew install libpq```
 
