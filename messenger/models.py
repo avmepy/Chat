@@ -11,4 +11,7 @@ class Message(models.Model):
     update_date = models.DateTimeField(verbose_name='Update date')
 
     def __str__(self):
+        """
+        str representation
+        """
         return f'Message {self.author} {self.text[:10]}'
