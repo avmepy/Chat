@@ -26,5 +26,5 @@ urlpatterns = [
     path('api/auth/', include('djoser.urls')),
     path('api/auth/', include('djoser.urls.authtoken')),
     path('api/messages/', include('messenger.urls')),
-    url(r'^$', schema_view)
+    url(r'^$', schema_view),
 ]
